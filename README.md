@@ -16,10 +16,10 @@ The model is trained on historical data and can predict the postseason ranking o
    pip install -r requirements.txt
    streamlit run app.py
 
-##Usage
+## Usage
 
 The input is a CSV file that contains team information.  An example CSV file is provided "largeInput.csv".
 
-##Notes
+## Notes
 
 The model's training was created for an ML certificate through IBM and edX.
