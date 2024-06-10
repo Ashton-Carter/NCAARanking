@@ -8,7 +8,7 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 
 #Training File
-df = pd.read_csv('./initdata.csv')
+df = pd.read_csv('./NCAABASKETBALL/initdata.csv')
 
 #Creating Win Index from Wins Over Bubble
 df['windex'] = np.where(df.WAB > 7, 'True', 'False')
