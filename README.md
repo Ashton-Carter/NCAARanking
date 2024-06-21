@@ -11,10 +11,10 @@ The model is trained on historical data and can predict the postseason ranking o
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/Ashton-Carter/NCAARanking.git
+   cd NCAARanking.git
    pip install -r requirements.txt
-   streamlit run app.py
+   streamlit run mLT.py
 
 ## Usage
 
